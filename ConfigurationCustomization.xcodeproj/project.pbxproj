@@ -26,7 +26,7 @@
 			outputFiles = (
 				"$(DERIVED_FILE_DIR)/$(INPUT_FILE_NAME)_skipped.swift",
 			);
-			script = "echo \n> \"$DERIVED_FILE_DIR/${INPUT_FILE_NAME}_skipped.swift\"\n";
+			script = "> \"$DERIVED_FILE_DIR/${INPUT_FILE_NAME}_skipped.swift\"\n";
 		};
 /* End PBXBuildRule section */
 
@@ -40,6 +40,7 @@
 		10F3E06C21B5965100097AEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10F3E07221B596DC00097AEF /* Configuration_S.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration_S.swift; sourceTree = "<group>"; };
 		10F3E07421B596ED00097AEF /* Configuration_P.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration_P.swift; sourceTree = "<group>"; };
+		10F3E07721B59B6500097AEF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +57,7 @@
 		10F3E05421B5964D00097AEF = {
 			isa = PBXGroup;
 			children = (
+				10F3E07721B59B6500097AEF /* README.md */,
 				10F3E05F21B5964D00097AEF /* ConfigurationCustomization */,
 				10F3E05E21B5964D00097AEF /* Products */,
 			);
